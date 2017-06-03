@@ -1,7 +1,7 @@
 {
   "development": {
     "username": "root",
-    "password": "unc@1986",
+    "password": "",
     "database": "burger_list",
     "host": "127.0.0.1",
     "dialect": "mysql"
@@ -14,10 +14,7 @@
     "dialect": "mysql"
   },
   "production": {
-    "username": "x7a3ifis4ptlekjb",
-    "password": "xzgl42wcajmxm2p2",
-    "database": "burgers_db",
-    "host": "v02yrnuhptcod7dk.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+    "use_env_variable": "JAWSDB_URL",
     "dialect": "mysql"
   }
 }
